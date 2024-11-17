@@ -1,0 +1,26 @@
+
+---
+
+### **pyproject.toml**
+
+```toml
+[project]
+name = "mltitanic"
+version = "0.1.0"
+description = "타이타닉 데이터 분석"
+authors = ["김재하 <rlawogk0405@naver.com>"]
+readme = "README.md"
+license = "Kaggle"
+keywords = ["titanic", "data analysis", "machine learning"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5"
+numpy = "^1.24"
+matplotlib = "^3.6"
+seaborn = "^0.12"
+scikit-learn = "^1.2"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
