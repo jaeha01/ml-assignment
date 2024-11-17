@@ -50,3 +50,10 @@ Python과 다양한 데이터 분석 라이브러리를 활용하여 탐색적 �
    ```bash
    python -m venv venv
    source venv/bin/activate  # Windows: venv\Scripts\activate
+
+2.필수 라이브러리 설치
+   pip install -r requirements.txt
+
+3.Jupyter notebook 실행
+
+4.notebook/디렉토리에서 분석 파일 열기
